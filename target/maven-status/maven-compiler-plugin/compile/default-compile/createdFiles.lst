@@ -1,0 +1,6 @@
+utils\HelperMethods.class
+pages\SignUpAndLoginPages.class
+shopping\SignUp.class
+testingWithTestNG\TestClass.class
+pages\HomeXpaths.class
+utils\BrowserSetup.class
