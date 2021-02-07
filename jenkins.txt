@@ -1,0 +1,25 @@
+pipeline{
+	agent{
+		node
+		{
+			label 'master'
+		}
+	}
+	
+	options{
+		timestamps()
+	}
+	
+	stages{
+		stage("Testing TestNG Project"){
+			steps{
+				git 'https://github.com/munna7862/ProjectTestNG.git'
+				script{
+					bat{/mvn clean test/}
+					}
+				step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])
+				}
+			}
+		}	
+
+}
