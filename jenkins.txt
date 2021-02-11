@@ -10,7 +10,7 @@ pipeline{
 		timestamps()
 	}
 	
-//	stages{
+	stages{
 //		stage("Testing TestNG Project"){
 //			steps{
 		//		script{
@@ -20,6 +20,6 @@ pipeline{
 //				step()
 //				}
 //			} 
-//	}	
+	}	
 
 }
