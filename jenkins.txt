@@ -12,14 +12,13 @@ pipeline{
 	
 	stages{
 		stage("Testing TestNG Project"){
-		echo 'success'
-//			steps{
+			steps{
 		//		script{
 		//			bat{/mvn clean test/}
 		//			}
 		//		step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])
-//				step()
-//				}
+//				step( echo 'success')
+				}
 			} 
 	}	
 
