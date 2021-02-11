@@ -13,11 +13,8 @@ pipeline{
 	stages{
 		stage("Testing TestNG Project"){
 			steps{
-		//		script{
-		//			bat{/mvn clean test/}
-		//			}
-		//		step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])
-//				step( echo 'success')
+			echo 'Hello, Maven'
+              		sh 'mvn --version'
 				}
 			} 
 	}	
