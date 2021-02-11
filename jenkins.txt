@@ -10,15 +10,16 @@ pipeline{
 		timestamps()
 	}
 	
-	stages{
-		stage("Testing TestNG Project"){
-		//	steps{
+//	stages{
+//		stage("Testing TestNG Project"){
+//			steps{
 		//		script{
 		//			bat{/mvn clean test/}
 		//			}
 		//		step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])
-		//		}
-			} 
+//				step()
+//				}
+//			} 
 		}	
 
 }
