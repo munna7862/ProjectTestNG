@@ -14,7 +14,7 @@ pipeline{
 		stage("Testing TestNG Project"){
 			steps{
 			echo 'Hello, Maven'
-              		sh 'mvn --version'
+            
 				}
 			} 
 	}	
